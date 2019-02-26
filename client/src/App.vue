@@ -1,8 +1,7 @@
 <template>
-  <v-app>
-    <core-filter />
-    <core-toolbar />
-    <core-drawer />
+  <v-app dark>
+    <core-side-drawer />
+    <core-topbar />
     <core-view />
   </v-app>
 </template>

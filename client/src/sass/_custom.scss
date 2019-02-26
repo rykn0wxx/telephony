@@ -1,0 +1,13 @@
+.rykn0wxx {
+  ::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+    &-thumb {
+      background: pink;
+      cursor: pointer;
+    }
+    &-track {
+      background: 0 0;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib'
+import './_app.styl'
 import 'vuetify/src/stylus/app.styl'
 
 Vue.use(Vuetify, {
@@ -22,5 +23,7 @@ Vue.use(Vuetify, {
     info: '#00d3ee',
     success: '#5cb860',
     warning: '#ffa21a'
-  }
+  },
+  background: '#f06292'
 })
+console.log('**********************', Vuetify)

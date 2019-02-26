@@ -321,5 +321,7 @@ $blue-grey-A700: #455a64 !default;
 $blue-grey: $blue-grey-500 !default;
 
 
-$black: #000000; $rgb-black: "0,0,0" !default;
-$white: #ffffff; $rgb-white: "255,255,255" !default;
+$black: rgba(0,0,0,0.87);
+$rgb-black: "0,0,0" !default;
+$white: rgba(250,250,250,0.87);
+$rgb-white: "255,255,255" !default;

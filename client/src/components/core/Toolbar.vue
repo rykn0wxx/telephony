@@ -5,7 +5,6 @@
     id="core-toolbar"
     flat
     prominent
-    dense
     class="elevation-2">
     <div class="v-toolbar-title">
       <v-toolbar-title

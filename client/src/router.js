@@ -40,7 +40,8 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: routePaths.map(path => theRoutes(path.path, path.view, path.name, path.file)).concat([
-    { path: '/', name: 'home', component: Home },
-    { path: '*', redirect: '/' }
+    // { path: '/', name: 'home', component: Home },
+    { path: '*', redirect: '/' },
+    { path: '/', redirect: '/home', component: Home }
   ])
 })

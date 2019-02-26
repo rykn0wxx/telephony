@@ -2,7 +2,7 @@ export default {
   token: null,
   isUserLogin: null,
   user: null,
-  drawer: false,
+  drawer: null,
   color: 'success',
   image: '../../assets/sidebar-bg.jpeg'
 }
